@@ -21,7 +21,7 @@ gulp.task("default", function ()
 {
     return browserify({
         basedir: '.',
-        debug: true,
+        debug: true, // set to false to release
         entries: ['./main.ts'],
         cache: {},
         packageCache: {}
